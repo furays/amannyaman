@@ -1,0 +1,494 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #086a51;
+	font-family: 'Arvo', serif;
+	font-size: 12px;
+	color: #3B3B3B;
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: Comic Sans MS;
+	font-weight: normal;
+	color: #ffdf1b;
+  text-align: center;
+}
+
+h1 {
+	font-size: 17px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #086a51;
+}
+
+a:hover {
+}
+
+
+
+/* Header */
+
+#header-wrapper {
+}
+
+#header {
+	clear: both;
+	width: 100%;
+	margin: none;
+  background: url();
+}
+
+
+/* Logo */
+
+#logo {
+	margin: 0px;
+	padding: 10px 0px;
+	color: #000000;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	margin: 0px;
+	padding: 0px;
+	text-transform: lowercase;
+	font-size: 3.8em;
+  color: #323030;
+}
+
+#logo h1 span {
+	color: #107710;
+}
+
+#logo p {
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	color: #3B3B3B;
+}
+
+#logo p a {
+	color: #3B3B3B;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #323030;
+}
+
+
+/* Search */
+
+#search {
+	width: 100px;
+	height: 10px;
+	padding: 0px;
+}
+
+#search form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 145px;
+	outline: none;
+	background: #F5F0E7;
+	border: 1px solid #D7D0C0;
+	padding: 1px;
+	border-radius: 1px;
+	text-transform: lowercase;
+	font-family: 'Open Sans', sans-serif;
+	color: #086a51;
+}
+
+#search-submit {
+	width: 17px;
+	height: 20px;
+	display: none;
+	border: none;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu-wrapper {
+	overflow: hidden;
+	height: 35px;
+	background: #086a51;
+  border-top: 1px solid #282323;
+  border-bottom: 1px solid #282323; 
+}
+
+#menu {
+	width: 1050px;
+	height: 35px;
+	margin: none;
+  padding: none;
+  position: absolute;
+  left: 140;
+}
+
+#menu ul {
+	margin: 0;
+	padding: none;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: right;
+	border-left: 1px solid #026549;
+  border-left: 1px solid #026549;
+}
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	margin: 1px;
+	padding: 8px 6px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #ffdf1b;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #086a51;
+	/*border-radius: 8px 10px;*/
+  border-bottom: 1px solid #ffdf1b;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+	background: #086a51;
+	border-radius: 0px auto;
+}
+
+/* Page */
+
+#page {
+	overflow: hidden;
+	/*width: 1220px;*/
+  width: 990px;
+	margin: 1px auto;
+	padding: 1px auto;
+}
+
+
+/* Content */
+
+#content {
+	float: left;
+	/*width: 694px;*/
+  width: 474px;
+  border: 5px solid #b7b4b4;
+}
+
+.post {
+	margin-bottom: 2px;
+	padding: 0px auto;
+	border: none;
+	border-radius: 0px;
+	background: #3a3838;       
+}
+
+.post-bgtop {
+}
+
+.post-bgbtm {
+}
+
+.post .title {
+	height: 30px;
+	margin-bottom: 2px;
+	padding: 0px auto;
+	font-size: 24px;
+}
+
+.post .title a {
+	border: none;
+	color: #107710;
+}
+
+.post .meta {
+	margin-bottom: 30px;
+	padding: 5px 0px 10px 0px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.post .meta .date {
+	float: left;
+}
+
+.post .meta .posted {
+	float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 15px;
+	text-align: justify;
+}
+
+.links {
+	display: inline-block;
+	height: 14px;
+	padding: 1px 5px 1px 5px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ffdf1b;
+}
+
+.button
+{
+	padding: 10px 10px;
+	background: #107710;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #1d1919;
+}
+
+
+/* Sidebar */
+
+#sidebar2
+{
+	float: right;
+	width: 324px;
+	/*padding: 5px 0px 0px 0px;*/
+  padding: none;
+	border: 5px solid #b7b4b4;
+	border-radius: 8px;
+	background: black;
+  font-family: Comic Sans MS;
+}
+
+#sidebar {
+	float: left;
+	width: 153px;
+	margin-right: 5px;
+  padding: 10px 0px 4px 0px;       
+	color: #ffdf1b;
+	border: 5px solid #b7b4b4;
+	border-radius: 8px;
+	background: #3a3838;  
+}
+#sidebar ul, #sidebar2 ul {
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*list-style: none;*/
+}
+
+#sidebar li, #sidebar2 li {
+	/*margin: 0;*/
+	/*padding: 0;*/
+}
+
+#sidebar li ul, #sidebar2 li ul {
+	/*margin: 0px 0px;*/
+	/*padding-bottom: 7px;*/
+}
+
+#sidebar li li, #sidebar2 li li {
+	/*border-bottom: 1px solid #000000;*/
+	/*margin: 0px 0px;*/
+	/*padding: 0px 0px;*/
+	/*border-left: none;*/
+  /*height: 22px;*/
+}
+
+#sidebar li li a, #sidebar2 li li a {
+	/*color: khaki;*/
+  /*padding-left: 8px;*/
+        
+}
+
+#sidebar li li span, #sidebar2 li li span {
+	/*display: block;*/
+	/*padding: 0;*/
+	/*font-size: 11px;*/
+	/*font-style: 'Arvo', serif;*/
+}
+
+#sidebar h2, #sidebar2 h2 {
+	/*padding-bottom: none;*/
+	/*font-size: 1.4em;*/
+	/*color: #ffdf1b;*/
+  /*border-bottom: 1px solid #000000;*/
+}
+
+#sidebar p, #sidebar2 p {
+	/*margin: 0px 0px 10px 0px;*/
+	/*padding : 0px;*/
+	/*text-align: left;*/
+}
+
+#sidebar a, #sidebar2 a {
+	/*border: none;*/
+}
+
+/*#sidebar a:hover, #sidebar2 a:hover {*/
+	/*text-decoration: none;*/
+  /*background: #b7b4b4;*/
+	/*border-radius: 0px;*/
+  /*height: 22px;*/
+  /*color: #ffdf1b;*/
+  /*text-decoration: none;*/
+  /*padding-top: 0px;*/
+  /*padding-left: 8px;*/
+  /*display: block;*/
+/*}*/
+
+
+/* kotak puta */
+
+#kotak {
+	float: left;
+	border: none;  
+}
+
+.putar {
+  position: absolute;
+  left: 187px;
+  top: 350px;
+  border: 2px solid #47bea0;
+}
+
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+
+/* Footer */
+
+#footer {
+	height: 3px;
+	margin: 0 auto;
+	padding: 0px 187px 3px 0;
+	background: #086a51;
+	border-top: 1px solid #000000;
+	font-family: 'Arvo', serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 0px auto;
+	line-height: normal;
+	font-size: 8px;
+	letter-spacing: 2px;
+	text-transform: auto;
+	text-align: right;
+	color: #ffffff;
+}
+
+#footer a {
+	color: #ffffff;
+}
+
+#banner {
+	width: 0px auto;
+	margin: 0px auto;
+}
+
+#banner img
+{
+	border-radius: 0px auto;
+}
+
+
+
+
+
+ /*
+ Jet Zoom CSS. (c)2013 Star Plugins.
+ This CSS can be altered to change the look and size of the lens.
+*/
+.jetzoom-lens {
+  border: 1px solid #fff;
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  box-shadow: -0px -0px 10px rgba(0,0,0,0.30);
+  -moz-box-shadow: -0px -0px 10px rgba(0,0,0,0.30);
+  -webkit-box-shadow: -0px -0px 10px rgba(0,0,0,0.30);
+  cursor: crosshair;
+}
+
+#myFancyJetZoom{
+  width: 160px;
+  height: 234px;
+}
+
+.image-wrap {
+  border: 1px solid #eee; 
+  display: inline-block;
+  line-height: 0; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

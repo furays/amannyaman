@@ -1,0 +1,223 @@
+/* slide fb samping kanan */
+
+.post-contact {
+        width: 198px;
+        position: fixed;
+        top: 70px;
+        right: -168px;
+        /* background: url(/bgcontact.png) repeat-x top; 
+        background-color: #bcbcbc;*/
+        background-color: transparent;
+        /*border: 1px solid #ababab;*/
+        border: none;
+        color: #ffdf1b;
+        font-family: Gill Sans MT;
+        font-size: 14px;
+        padding: 2px 3px;
+        /*cursor: pointer;*/
+        -moz-border-radius: 7px;
+        -o-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        border-radius: 7px;
+        /*-moz-box-shadow: 3px 3px 6px #555;
+        -o-box-shadow: 3px 3px 6px #555;
+        -webkit-box-shadow: 3px 3px 6px #555;
+        box-shadow: 3px 3px 6px #555;*/
+        -moz-box-shadow: 3px 3px 6px transparent;
+        -o-box-shadow: 3px 3px 6px transparent;
+        -webkit-box-shadow: 3px 3px 6px transparent;
+        box-shadow: 3px 3px 6px transparent;
+        -moz-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+}
+user agent stylesheetdiv {
+        display: block;
+}
+
+.post-contact a {
+	/*color: #191919;*/
+        color: #ffdf1b;
+}
+
+.post-contact:hover {
+	right: -20px;
+        /*color: #C30;*/
+}
+
+.post-contact tr td {
+	padding: 3px 0;
+	background: url(../images/batascontact.png) repeat-x center top;
+}
+
+.section-top {
+	height: 366px;
+	margin-bottom: -60px;
+	z-index: -10;
+}
+
+.fixed-left {
+        position: fixed;
+        top: 150px;
+        left: -5px;
+}
+
+.fixed-left img {
+        margin-bottom: 50px;
+}
+
+.post-contact tr:first-child td {
+	background: none;
+}
+
+
+/* akhir slide fb samping kanan */
+
+
+.slideshow {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.slideshow_wrapper {
+        width: 661px;
+        height: 297px;
+        padding: 11px;
+        background: url('http://reuncong.dum.su/tanohs/gambas/slideshow_wrapper.png') no-repeat;
+        margin-right: 11px;
+}
+
+/* start SIDE livechat */
+.side_livechat {
+        position: relative;
+        width: 295px;
+        height: 319px;
+        background: url('http://reuncong.weebly.com/editor/uploads/6/4/5/0/64509865/custom_themes/677143645328247463/files/images/fancys/side_livechat.png') no-repeat top;
+}
+
+.side_livechat ul, .side_livechat li {
+	margin: 0; 
+        padding: 0;
+	list-style: none;
+}
+
+.side_livechat ul {
+	padding: 60px 15px 0 15px;
+}
+
+
+.side_livechat li.livechat_facebook {
+        background: url('ttp://1.bp.blogspot.com/-Zcbj5XE9aeY/Vk111GoUQRI/AAAAAAAAAJ8/gb5Xaxq56aY/s1600/facebook.png') no-repeat 10px 50%;
+}
+
+.side_livechat li.livechat_twitter {
+        background: url('http://3.bp.blogspot.com/-vq243_mNsFU/Vk114XXw4WI/AAAAAAAAAKE/ql1eTHJx37g/s1600/twitter.png') no-repeat 10px 50%;
+}
+
+/*
+.side_livechat li.livechat_googleplus {
+        background: url('http://reuncong.dum.su/tanohs/gambas/googleplus.png') no-repeat 10px 50%;
+}
+
+.side_livechat li.livechat_linkkedin {
+        background: url('http://reuncong.dum.su/tanohs/gambas/linkedin.png') no-repeat 10px 50%;
+}
+
+.side_livechat li.livechat_pinterest {
+        background: url('http://reuncong.dum.su/tanohs/gambas/pinterest.png') no-repeat 10px 50%;
+}
+*/
+
+.side_livechat li.livechat_phones {
+        background: url('http://reuncong.weebly.com/editor/uploads/6/4/5/0/64509865/custom_themes/677143645328247463/files/images/gallery/telepon.png') no-repeat 10px 50%;
+}
+
+.side_livechat li.livechat_bbm {
+        background: url('http://2.bp.blogspot.com/-cHSq5AUMtCA/VkzgheD-rhI/AAAAAAAAAEc/n13PjwWvSJw/s1600/bb.png') no-repeat 10px 50%;
+}
+
+/*
+.side_livechat li.livechat_ym {
+        background: url('http://reuncong.dum.su/tanohs/gambas/ym.png') no-repeat 10px 50%;
+}
+
+.side_livechat li.livechat_whatsapp {
+        background: url('http://reuncong.dum.su/tanohs/gambas/whatsapp.png') no-repeat 10px 50%;
+}
+
+.side_livechat li.livechat_wechat {
+        background: url('http://reuncong.dum.su/tanohs/gambas/wechat.png') no-repeat 10px 50%;
+}
+*/
+
+.side_livechat li.livechat_email {
+        background: url('http://reuncong.weebly.com/editor/uploads/6/4/5/0/64509865/custom_themes/677143645328247463/files/images/gallery/envelope_kuning.png') no-repeat 10px 50%;
+}
+
+
+
+
+/*
+.side_livechat li.livechat_skype {
+        background: url('http://reuncong.dum.su/tanohs/gambas/skype.png') no-repeat 15px 50%;
+}
+*/
+.side_livechat li.livechat_wechat {
+        background: url('http://reuncong.dum.su/tanohs/gambas/wechat.png') no-repeat 15px 50%;
+}
+/*
+.side_livechat li.livechat_line {
+         background: url('http://reuncong.dum.su/tanohs/gambas/line.png') no-repeat 15px 50%;
+}
+*/
+.side_livechat li.livechat_livechat {
+         background: url('http://reuncong.dum.su/tanohs/gambas/livechat.png') no-repeat 10px 50%;
+}
+
+.side_livechat li a {
+	display: block;
+	/*color: #b2b2b2;*/
+        color: #ffdf1b;
+	font-size: 16px;
+	line-height: 48px;
+	padding-left: 60px;
+	background: url('http://reuncong.dum.su/tanohs/gambas/batas_livechat.png') repeat-x top;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+.side_livechat li a:hover {
+	/*color: #C30;*/
+        /*color: transparent;*/
+        color: khaki;
+}
+
+.side_livechat li:first-child a {
+	background: none;
+}
+/* end SIDE livechat */
+
+.img_slideshow {
+        overflow: hidden;
+        -moz-border-radius: 15px 0 0 15px;
+        -o-border-radius: 15px 0 0 15px;
+        -webkit-border-radius: 15px 0 0 15px;
+        border-radius:  15px 0 0 15px;
+}
+
+.but_sideregister {
+        display: block;
+        width: 245px;
+        height: 54px;
+        background: url('/but_register.png') no-repeat top;
+        position: absolute;
+        bottom: 30px;
+        right: 20px;
+}
+
+.but_sideregister:hover {
+        background-position: bottom;
+}

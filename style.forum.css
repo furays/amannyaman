@@ -151,7 +151,7 @@ a:hover {
 	height: 35px;
 	background: #086a51;
 	border-top: 1px solid #282323;
-  border-bottom: 1px solid #282323;
+        border-bottom: 1px solid #282323;
 }
 
 #menu {
@@ -159,8 +159,8 @@ a:hover {
 	height: 35px;
 	margin: none;
 	padding: none;
-  position: absolute;
-  left: 627px;
+        position: absolute;
+        left: 627px;
 }
 
 #menu ul {
@@ -173,7 +173,7 @@ a:hover {
 #menu li {
 	float: right;
 	border-left: 1px solid #026549;
-  border-left: 1px solid #026549;
+        border-left: 1px solid #026549;
 }
 
 #menu a {
@@ -208,7 +208,7 @@ a:hover {
 
 #page {
 	overflow: hidden;
-	width: 990px;
+	width: 923px;
 	margin: 1px auto;
 	padding: 1px auto;
 }
@@ -218,7 +218,7 @@ a:hover {
 
 #content {
 	float: left;
-	width: 582px;
+	width: 515px;
 }
 
 .post {

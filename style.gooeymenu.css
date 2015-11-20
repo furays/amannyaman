@@ -34,7 +34,7 @@ ul.gelbuttonmenu li.active{ /*style of LI that gets dynamically added to menu to
   position: absolute;
   width: 0;
   /*background: transparent; lightblue; white; diubah transparent krn alls level */
-  background: #086a51 url(/1600/gelbuttonleft2.gif) top left no-repeat, url(/s1600/gelbuttonright2.gif) top right no-repeat, url(/s1600/gelbuttoncenter2.gif) top center repeat-x;
+  background: #086a51 url(http://3.bp.blogspot.com/-FeMMMXWn66g/VkzVbmUgUEI/AAAAAAAAABI/B7JYtICbwEw/s1600/gelbuttonleft2.gif) top left no-repeat, url(http://2.bp.blogspot.com/-VCL_kfIDqW8/VkzVofbbg1I/AAAAAAAAABQ/5eVpIi449ys/s1600/gelbuttonright2.gif) top right no-repeat, url(http://3.bp.blogspot.com/-x-nP-eGskmY/VkzU_9QMFdI/AAAAAAAAABA/iPBuruJVxSo/s1600/gelbuttoncenter2.gif) top center repeat-x;
   border-radius: 13px;
 }
 

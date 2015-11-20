@@ -194,7 +194,7 @@ a:hover {
 #menu a:hover, #menu .current_page_item a {
 	background: #086a51;
 	/*border-radius: 8px 10px;*/
-  border-bottom: 1px solid #ffdf1b;
+        border-bottom: 1px solid #ffdf1b;
 	text-decoration: none;
 	color: #FFFFFF;
 }
@@ -292,7 +292,7 @@ a:hover {
 
 .pass_latar {
   background:
-  url(http://4.bp.blogspot.com/-AXH7np3xb-Q/VkzjPS4u4rI/AAAAAAAAAGE/A7xXOx1W2gI/s320/pass_bener.jpg) 0 100% no-repeat;
+  url(http://3.bp.blogspot.com/-bU9qrQufK5k/Vk8Raq-D1BI/AAAAAAAAAKk/rDZjLjb7CRA/s320/pass_bener.jpg) 0 100% no-repeat;
   width: 500px;
   height: 265px;
 }

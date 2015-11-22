@@ -19,7 +19,7 @@ arrowpointers:{
 },
 hideinterval: 500, //delay in milliseconds before entire menu disappears onmouseout.
 effects: {enableswipe: true, enableslide: true, enablefade: true, duration: 700},
-httpsiframesrc: "https://cdn.rawgit.com/furays/amannyaman/master/blank.html", //If menu is run on a secure (https) page, the IFRAME shim feature used by the script should point to an *blank* page *within* the secure area to prevent an IE security prompt. Specify full URL to that page on your server (leave as is if not applicable).
+httpsiframesrc: "https://cdn.rawgit.com/furays/amannyaman/master/blank.htm", //If menu is run on a secure (https) page, the IFRAME shim feature used by the script should point to an *blank* page *within* the secure area to prevent an IE security prompt. Specify full URL to that page on your server (leave as is if not applicable).
 
 ///No need to edit beyond here////////////////////
 

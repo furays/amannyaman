@@ -56,7 +56,7 @@ a:hover {
 	clear: both;
 	width: 100%;
 	margin: none;
-  background: url();
+        background: url();
 }
 
 
@@ -151,20 +151,20 @@ a:hover {
 	height: 35px;
 	background: #086a51;
 	border-top: 1px solid #282323;
-  border-bottom: 1px solid #282323;
+        border-bottom: 1px solid #282323;
 }
 
 #menu {
-	width: 666px;
+	width: 700px;
 	height: 35px;
 	margin: none;
 	padding: none;
-  position: absolute;
-  left: 627px;
+        position: absolute;
+        left: 593px;
 }
 
 #menu ul {
-	margin: auto;
+	margin: 0;
 	padding: none;
 	list-style: none;
 	line-height: normal;
@@ -173,7 +173,7 @@ a:hover {
 #menu li {
 	float: right;
 	border-left: 1px solid #026549;
-  border-left: 1px solid #026549;
+        border-left: 1px solid #026549;
 }
 
 #menu a {
@@ -194,9 +194,9 @@ a:hover {
 #menu a:hover, #menu .current_page_item a {
 	background: #086a51;
 	/*border-radius: 8px 10px;*/
-  border-bottom: 1px solid #ffdf1b;
+        border-bottom: 1px solid #ffdf1b;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: khaki;
 }
 
 #menu .current_page_item a {
@@ -209,10 +209,10 @@ a:hover {
 
 #page {
 	overflow: hidden;
-	width: 990px;
+	width: 923px;
 	margin: 1px auto;
 	padding: 1px auto;
-  /*height: 84.9%;*/
+       /*height: 84.9%;*/
 }
 
 
@@ -220,12 +220,12 @@ a:hover {
 
 #content {
 	float: left;
-	width: 582px;
+	width: 515px;
 }
 
 .post {
 	margin-bottom: none;
-	padding: 0px auto;
+	padding: none;
 	border: 5px solid #b7b4b4;
 	border-radius: 0px;
 	background: #3a3838;
@@ -292,11 +292,12 @@ a:hover {
 }
 
 .latar {
-  background:
-  url(http://4.bp.blogspot.com/-bqBVxyfvIpY/Vkzh3x-0IPI/AAAAAAAAAFM/-GyexdzXCMw/s320/julia.jpg) 0 100% no-repeat,
-  url(http://2.bp.blogspot.com/-4KIOnpK6xjA/VlLAyE81hcI/AAAAAAAAAK0/_GuqGmfS16Y/s320/womenpowerlama.jpg) 0 100% no-repeat;
-  width: 500px;
-  height: 545px;
+    background:
+	url(http://amandannyaman.weebly.com/editor/uploads/5/9/8/0/59807993/custom_themes/366697960667229786/files/images/foto/tante_joget.gif) 0 100% no-repeat,
+	url(http://amandannyaman.weebly.com/editor/uploads/5/9/8/0/59807993/custom_themes/366697960667229786/files/images/foto/julia.jpg) 0 100% no-repeat,
+	url(http://amandannyaman.weebly.com/editor/uploads/5/9/8/0/59807993/custom_themes/366697960667229786/files/images/foto/womenpower.jpg) 0 100% no-repeat;
+	width: 500px;
+        height: 540px;
 }
 
 .overlay {

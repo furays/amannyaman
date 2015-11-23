@@ -45,8 +45,6 @@ a {
 a:hover {
 }
 
-
-
 /* Header */
 
 #header-wrapper {
@@ -78,7 +76,7 @@ a:hover {
 	padding: 0px;
 	text-transform: lowercase;
 	font-size: 3.8em;
-  color: #323030;
+        color: #323030;
 }
 
 #logo h1 span {
@@ -144,7 +142,7 @@ a:hover {
 	color: #FFFFFF;
 }
 
-/* Menu 
+/* Menu */
 
 #menu-wrapper {
 	overflow: hidden;
@@ -193,7 +191,6 @@ a:hover {
 
 #menu a:hover, #menu .current_page_item a {
 	background: #086a51;
-	/*border-radius: 8px 10px;*/
         border-bottom: 1px solid #ffdf1b;
 	text-decoration: none;
 	color: khaki;
@@ -203,7 +200,6 @@ a:hover {
 	background: #086a51;
 	border-radius: 0px auto;
 }
-*/
 
 /* Page */
 
@@ -212,7 +208,6 @@ a:hover {
 	width: 923px;
 	margin: 1px auto;
 	padding: 1px auto;
-       /*height: 84.9%;*/
 }
 
 

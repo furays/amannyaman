@@ -149,14 +149,14 @@ nav.mobilelevelsmenu ul li a span.right{ /* SPAN inside LI headers containing "r
 /* ############# Animated Drawer icon (horizontal mobile menu toggler) CSS ############# */
 
 .animateddrawer{
-	   font-size: 10px; /* Base font size. Adjust this value to modify size of drawer icon */
+       font-size: 10px; /* Base font size. Adjust this value to modify size of drawer icon */
        width: 3em; 
        height: 2.8em; 
        outline: none;
        display: none;
-	   position: relative;
-	   background: white;
-	   z-index: 1000;
+       position: relative;
+       background: white;
+       z-index: 1000;
 }
 
 .animateddrawer:before, .animateddrawer:after{

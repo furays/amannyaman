@@ -6,7 +6,7 @@ body {
 	font-size: 11px;
 	color: #3B3B3B;
 }
-
+/*
 h1, h2, h3 {
 	margin: auto;
 	padding: none;
@@ -28,7 +28,7 @@ h2 {
 h3 {
 	font-size: 1.4em;
 }
-
+*/
 p, ul, ol {
 	margin-top: 0;
 	line-height: 180%;

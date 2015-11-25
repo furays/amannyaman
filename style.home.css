@@ -151,17 +151,17 @@ a:hover {
 	overflow: hidden;
 	height: 35px;
 	background: #086a51;
-  border-top: 1px solid #282323;
-  border-bottom: 1px solid #282323; 
+        border-top: 1px solid #282323;
+        border-bottom: 1px solid #282323; 
 }
 
 #menu {
 	width: 1050px;
 	height: 35px;
 	margin: none;
-  padding: none;
-  position: absolute;
-  left: 140;
+        padding: none;
+        position: absolute;
+        left: 140;
 }
 
 #menu ul {
@@ -302,11 +302,11 @@ a:hover {
 	float: right;
 	width: 324px;
 	/*padding: 5px 0px 0px 0px;*/
-  padding: none;
+        padding: none;
 	border: 5px solid #b7b4b4;
 	border-radius: 8px;
 	background: black;
-  font-family: Comic Sans MS;
+        font-family: Comic Sans MS;
 }
 
 #sidebar {
@@ -375,14 +375,14 @@ a:hover {
 
 /*#sidebar a:hover, #sidebar2 a:hover {*/
 	/*text-decoration: none;*/
-  /*background: #b7b4b4;*/
+        /*background: #b7b4b4;*/
 	/*border-radius: 0px;*/
-  /*height: 22px;*/
-  /*color: #ffdf1b;*/
-  /*text-decoration: none;*/
-  /*padding-top: 0px;*/
-  /*padding-left: 8px;*/
-  /*display: block;*/
+        /*height: 22px;*/
+        /*color: #ffdf1b;*/
+        /*text-decoration: none;*/
+        /*padding-top: 0px;*/
+        /*padding-left: 8px;*/
+        /*display: block;*/
 /*}*/
 
 

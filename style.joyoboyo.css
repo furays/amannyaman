@@ -188,10 +188,10 @@ a:hover {
 	color: #ffdf1b;
 	border: none;
 }
-
+/*
 #menu a:hover, #menu .current_page_item a {
 	background: #086a51;
-        /*border-bottom: 1px solid #ffdf1b;*/
+        border-bottom: 1px solid #ffdf1b;
 	text-decoration: none;
 	color: khaki;
 }
@@ -200,7 +200,7 @@ a:hover {
 	background: #086a51;
 	border-radius: 0px auto;
 }
-
+*/
 /* Page */
 
 #page {

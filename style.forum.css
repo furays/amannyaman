@@ -146,7 +146,7 @@ a:hover {
 
 /* Menu */
 
-#menu-wrapper {
+#menuang-wrapper {
 	overflow: hidden;
 	height: 35px;
 	background: #086a51;
@@ -154,7 +154,7 @@ a:hover {
         border-bottom: 1px solid #282323;
 }
 
-#menu {
+#menuang {
 	width: 923px;
 	height: 35px;
 	margin: none;
@@ -163,20 +163,20 @@ a:hover {
         left: 627px;
 }
 
-#menu ul {
+#menuang ul {
 	margin: 0;
 	padding: none;
 	list-style: none;
 	line-height: normal;
 }
 
-#menu li {
+#menuang li {
 	float: right;
 	border-left: 1px solid #026549;
         border-left: 1px solid #026549;
 }
 
-#menu a {
+#menuang a {
 	display: block;
 	letter-spacing: 1px;
 	margin: 1px;
@@ -191,7 +191,7 @@ a:hover {
 	border: none;
 }
 
-#menu a:hover, #menu .current_page_item a {
+#menuang a:hover, #menuang .current_page_item a {
 	background: #086a51;
 	/*border-radius: 8px 10px;*/
         border-bottom: 1px solid #ffdf1b;
@@ -199,7 +199,7 @@ a:hover {
 	color: #FFFFFF;
 }
 
-#menu .current_page_item a {
+#menuang .current_page_item a {
 	background: #086a51
 	border-radius: 0px auto;
 }
@@ -323,7 +323,7 @@ a:hover {
 	float: left;
 	width: 189px;
 	margin-right: 5px;
-  padding: 5px 0px 0px 0px;       
+        padding: 5px 0px 0px 0px;       
 	color: #ffdf1b;
 	border: 5px solid #b7b4b4;
 	border-radius: 8px;
@@ -408,7 +408,7 @@ a:hover {
 
 /* Footer */
 
-#footer {
+#kaki {
 	height: 3px;
 	margin: 0 auto;
 	padding: 0px 187px 3px 0;
@@ -417,7 +417,7 @@ a:hover {
 	font-family: 'Arvo', serif;
 }
 
-#footer p {
+#kaki p {
 	margin: 0;
 	padding-top: 0px auto;
 	line-height: normal;
@@ -428,7 +428,7 @@ a:hover {
 	color: #ffffff;
 }
 
-#footer a {
+#kaki a {
 	color: #ffffff;
 }
 

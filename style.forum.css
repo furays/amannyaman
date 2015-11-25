@@ -155,12 +155,12 @@ a:hover {
 }
 
 #menu {
-	width: 666px;
+	width: 700px;
 	height: 35px;
 	margin: none;
 	padding: none;
         position: absolute;
-        /*left: 627px;*/
+        left: 627px;
 }
 
 #menu ul {
@@ -183,9 +183,9 @@ a:hover {
 	padding: 8px;
 	text-decoration: none;
 	text-align: center;
-	text-transform: uppercase;
+	/*text-transform: uppercase;
 	font-family: 'Arvo', serif;
-	font-size: 15px;
+	font-size: 15px;*/
 	font-weight: normal;
 	color: #ffdf1b;
 	border: none;
@@ -200,7 +200,7 @@ a:hover {
 }
 
 #menu .current_page_item a {
-	background: #086a51;
+	background: #086a51
 	border-radius: 0px auto;
 }
 

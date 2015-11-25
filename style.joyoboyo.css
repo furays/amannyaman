@@ -158,7 +158,7 @@ a:hover {
 	margin: none;
 	padding: none;
         position: absolute;
-        left: 593px;
+        /*left: 593px;*/
 }
 
 #menu ul {
@@ -181,9 +181,9 @@ a:hover {
 	padding: 8px;
 	text-decoration: none;
 	text-align: center;
-	text-transform: uppercase;
+	/*text-transform: uppercase;
 	font-family: 'Arvo', serif;
-	font-size: 15px;
+	font-size: 15px;*/
 	font-weight: normal;
 	color: #ffdf1b;
 	border: none;

@@ -46,7 +46,6 @@ a:hover {
 }
 
 
-
 /* Header */
 
 #header-wrapper {
@@ -56,7 +55,7 @@ a:hover {
 	clear: both;
 	width: 100%;
 	margin: none;
-  background: url();
+        background: url();
 }
 
 
@@ -160,7 +159,7 @@ a:hover {
 	margin: none;
 	padding: none;
         position: absolute;
-        left: 627px;
+        /*left: 627px;*/
 }
 
 #menu ul {
